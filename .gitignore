@@ -1,0 +1,9 @@
+.DS_Store
+secrets.txt
+# Ignore All PHP Files
+*.php
+.idea
+
+# ignore dependencies
+node_modulesgit
+logs
