@@ -68,6 +68,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Karla Sanchez - [My Portfolio](karlasanchez.us) - karlaonrails@gmail.com
+Karla Sanchez - karlasanchez.us - karlaonrails@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
