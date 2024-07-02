@@ -32,6 +32,8 @@ h1 {
 }
 p {
   color: #DBEDF3;
+  font-family: sans-serif;
+  letter-spacing: .2rem;
 }
 small {
   color: #DBEDF3;
