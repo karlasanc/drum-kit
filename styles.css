@@ -1,57 +1,62 @@
+/* Site Layout */
 body {
   background-color: black;
   text-align: center;
   font-family: "Margarine", sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 1;
 }
 header {
-
+  margin: 0 auto;
+  padding: 1rem;
+  border-bottom: solid 2px white;
+  width: 60%;
 }
 main {
-  padding: 40px;
+  margin: 1rem;
 }
-
 footer {
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 1rem;
+  border-top: solid 2px white;
+  width: 60%;
+  margin: 0 auto;
 }
 
+
+/* Site Typography */
 h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #DBEDF3;
   text-shadow: 5px 0 #DA0463;
 }
-
+p {
+  color: #DBEDF3;
+}
 small {
   color: #DBEDF3;
   font-family: sans-serif;
 }
 
+/* Standard Site Image Classes */
 .w {
   background-image: url("images/tom3.png");
 }
-
 .a {
   background-image: url("images/tom1.png");
 }
-
 .s {
   background-image: url("images/tom4.png");
 }
-
 .d {
   background-image: url("images/tom2.png");
 }
-
 .k {
   background-image: url("images/kick.png");
 }
-
 .j {
   background-image: url("images/snare.png");
 }
-
 .l {
   background-image: url("images/crash.png");
 }
@@ -61,19 +66,18 @@ small {
   box-shadow: 0 3px 4px 0 #DA0463;
   opacity: 0.5;
 }
-
 .drum {
   background-color: black;
   background-repeat: no-repeat;
   display: inline-block;
   border-radius: 15px;
   border: 3px solid whitesmoke;
-  font-size: 5rem;
+  font-size: 4rem;
   color: whitesmoke;
   text-shadow: 5px 0 #DA0463;
   text-transform: uppercase;
   outline: none;
   width: 150px;
   height: 150px;
-  margin: 8px;
+  margin: 1rem;
 }
