@@ -1,18 +1,29 @@
 body {
+  background-color: black;
   text-align: center;
-  background-color: #283149;
+  font-family: "Margarine", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  padding: 15px;
+}
+main {
+  padding: 40px;
+}
+
+footer {
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  text-shadow: 5px 0 #DA0463;
 }
 
-
-footer {
+small {
   color: #DBEDF3;
   font-family: sans-serif;
 }
@@ -33,51 +44,36 @@ footer {
   background-image: url("images/tom2.png");
 }
 
-.j {
-  background-image: url("images/snare.png");
-}
-
 .k {
   background-image: url("images/kick.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
 }
 
 .l {
   background-image: url("images/crash.png");
 }
 
-.set {
-  margin: 10% auto;
-}
-
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
 /*class that changes the css of the pressed button*/
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #DA0463;
   opacity: 0.5;
 }
 
-.red {
-  color: red;
-}
-
 .drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  background-color: black;
+  background-repeat: no-repeat;
   display: inline-block;
+  border-radius: 15px;
+  border: 3px solid whitesmoke;
+  font-size: 5rem;
+  color: whitesmoke;
+  text-shadow: 5px 0 #DA0463;
+  text-transform: uppercase;
+  outline: none;
   width: 150px;
   height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+  margin: 8px;
 }

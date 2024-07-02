@@ -1,14 +1,14 @@
 //alert("Hello"); //test
 
-//create event listener for when user clicks the button on screen on specitic button
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+//create event listener for when user clicks the button on screen on specific button
+const numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
 
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         //alert("I got clicked!"); //test
 
-        //console.log(this);// creates an event listneer to every button and logs on console
+        //console.log(this);// creates an event listener to every button and logs on console
 
         //this.style.color = "white"; //changes color of button to white and runs code
         var buttonInnerHTML = this.innerHTML;
@@ -21,9 +21,9 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
     });
 }
 
-//add eventlisteners to entire page to check for key presses
+//add event listeners to entire page to check for key presses
 document.addEventListener("keydown", function(event){
-    //alert("Key was pressed"); //test keypressing works
+    //alert("Key was pressed"); //test key pressing
     
     makeSound(event.key);//use function to make sound based on key
 
@@ -34,7 +34,7 @@ document.addEventListener("keydown", function(event){
 function makeSound(key){
     switch (key) {
         case "w": 
-            //creats html variable that stores new audio
+            //create html variable that stores new audio
             var tom3 = new Audio('sounds/tom-3.mp3');
             tom3.play();
             break;//exits switch stmt
